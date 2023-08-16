@@ -1,0 +1,1 @@
+import{j as a,f as c,r as _,g as s,h as l,i as p,E as m,o as u}from"./entry.d4e64f46.js";const C={__name:"[slug]",async setup(k){let o,e;const n=a(),t=([o,e]=c(()=>m(`projects/${n.params.slug}`,{version:"draft"})),o=await o,e(),o);return(f,i)=>{const r=_("StoryblokComponent");return s(t)?(u(),l(r,{key:0,blok:s(t).content},null,8,["blok"])):p("",!0)}}};export{C as default};
