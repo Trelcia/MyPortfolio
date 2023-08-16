@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-<div clas="container" v-editable="blok">
+<div class="container" v-editable="blok">
   <h1 style="margin-left: 10px;">{{ blok.title }}</h1>
 
   <div class="featured-projects">
