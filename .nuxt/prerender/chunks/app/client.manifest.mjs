@@ -1,8 +1,8 @@
 const client_manifest = {
-  "_nuxt-link.ad77f421.js": {
+  "_nuxt-link.fc814613.js": {
     "resourceType": "script",
     "module": true,
-    "file": "nuxt-link.ad77f421.js",
+    "file": "nuxt-link.fc814613.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -16,9 +16,9 @@ const client_manifest = {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "error-404.7a5a3229.js",
+    "file": "error-404.0b8de2a9.js",
     "imports": [
-      "_nuxt-link.ad77f421.js",
+      "_nuxt-link.fc814613.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -37,7 +37,7 @@ const client_manifest = {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "error-500.40b5b782.js",
+    "file": "error-500.954beade.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -55,7 +55,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.d4e64f46.js",
+    "file": "entry.6610ff33.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js",
     "_globalCSS": true
@@ -63,7 +63,7 @@ const client_manifest = {
   "pages/index.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "index.bdb25e93.js",
+    "file": "index.bde98ce7.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -73,7 +73,7 @@ const client_manifest = {
   "pages/projects/[slug].vue": {
     "resourceType": "script",
     "module": true,
-    "file": "_slug_.ec335a64.js",
+    "file": "_slug_.5b9f02ab.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -83,9 +83,9 @@ const client_manifest = {
   "storyblok/FeaturedProjects.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "FeaturedProjects.0ef80d72.js",
+    "file": "FeaturedProjects.2af908e5.js",
     "imports": [
-      "_nuxt-link.ad77f421.js",
+      "_nuxt-link.fc814613.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -94,7 +94,7 @@ const client_manifest = {
   "storyblok/Hero.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "Hero.a89766b4.js",
+    "file": "Hero.de09b675.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -104,7 +104,7 @@ const client_manifest = {
   "storyblok/Page.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "Page.d6d273cc.js",
+    "file": "Page.33922194.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -114,9 +114,9 @@ const client_manifest = {
   "storyblok/Projects.vue": {
     "resourceType": "script",
     "module": true,
-    "file": "Projects.e492cb03.js",
+    "file": "Projects.175f1475.js",
     "imports": [
-      "_nuxt-link.ad77f421.js",
+      "_nuxt-link.fc814613.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,

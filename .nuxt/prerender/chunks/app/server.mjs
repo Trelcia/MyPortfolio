@@ -318,7 +318,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-32951f18.mjs').then((m2) => m2.default || m2)
+    component: () => import('./_nuxt/index-071f84e2.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "projects-slug",

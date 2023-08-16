@@ -1,19 +1,19 @@
-import { E as Ee } from "../server.mjs";
+import { E as Ee, a as useRoute } from "../server.mjs";
 import { withAsyncContext, resolveComponent, unref, mergeProps, useSSRContext } from "vue";
+import "hookable";
+import "destr";
+import "devalue";
+import "klona";
 import { ssrRenderComponent } from "vue/server-renderer";
 import "ofetch";
 import "#internal/nitro";
-import "hookable";
 import "unctx";
 import "vue-router";
 import "h3";
 import "ufo";
-import "devalue";
 import "@unhead/ssr";
 import "unhead";
 import "@unhead/shared";
-import "destr";
-import "klona";
 import "defu";
 const _sfc_main = {
   __name: "index",
@@ -21,7 +21,7 @@ const _sfc_main = {
   async setup(__props) {
     let __temp, __restore;
     const story = ([__temp, __restore] = withAsyncContext(() => Ee("home", {
-      version: "draft",
+      version: useRoute().query._storyblok ? "draft" : "published",
       resolve_relations: "featuredProjects.project"
     }, {
       resolveRelations: "featuredProjects.project"
@@ -47,4 +47,4 @@ _sfc_main.setup = (props, ctx) => {
 export {
   _sfc_main as default
 };
-//# sourceMappingURL=index-32951f18.js.map
+//# sourceMappingURL=index-071f84e2.js.map

@@ -1,4 +1,4 @@
-import { E as Ee } from '../server.mjs';
+import { E as Ee, a as useRoute } from '../server.mjs';
 import { withAsyncContext, resolveComponent, unref, mergeProps, useSSRContext } from 'file:///home/natalia/VS-nauczny/jamstack/jamstack-course/node_modules/vue/index.mjs';
 import { ssrRenderComponent } from 'file:///home/natalia/VS-nauczny/jamstack/jamstack-course/node_modules/vue/server-renderer/index.mjs';
 import 'file:///home/natalia/VS-nauczny/jamstack/jamstack-course/node_modules/ofetch/dist/node.mjs';
@@ -31,7 +31,7 @@ const _sfc_main = {
   async setup(__props) {
     let __temp, __restore;
     const story = ([__temp, __restore] = withAsyncContext(() => Ee("home", {
-      version: "draft",
+      version: useRoute().query._storyblok ? "draft" : "published",
       resolve_relations: "featuredProjects.project"
     }, {
       resolveRelations: "featuredProjects.project"
@@ -56,4 +56,4 @@ _sfc_main.setup = (props, ctx) => {
 };
 
 export { _sfc_main as default };
-//# sourceMappingURL=index-32951f18.mjs.map
+//# sourceMappingURL=index-071f84e2.mjs.map

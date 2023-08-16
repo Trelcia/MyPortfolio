@@ -1,0 +1,1 @@
+import{r as l,o as e,c as t,F as a,m as c,h as s}from"./entry.6610ff33.js";const k={__name:"Page",props:{blok:Object},setup(n){return(m,p)=>{const r=l("StoryblokComponent");return e(),t("div",null,[(e(!0),t(a,null,c(n.blok.body,o=>(e(),s(r,{key:o._uid,blok:o},null,8,["blok"]))),128))])}}};export{k as default};
